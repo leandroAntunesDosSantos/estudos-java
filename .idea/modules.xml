@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula04/Aula04.iml" filepath="$PROJECT_DIR$/Aula04/Aula04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heranca00/Heranca00.iml" filepath="$PROJECT_DIR$/Heranca00/Heranca00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA-OOP.iml" filepath="$PROJECT_DIR$/.idea/JAVA-OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoPessoas/ProjetoPessoas.iml" filepath="$PROJECT_DIR$/ProjetoPessoas/ProjetoPessoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aulapolimorfismo/aulapolimorfismo.iml" filepath="$PROJECT_DIR$/aulapolimorfismo/aulapolimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classesdosiphone/classesdosiphone.iml" filepath="$PROJECT_DIR$/classesdosiphone/classesdosiphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" filepath="$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/encapsulamento/encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livros/livros.iml" filepath="$PROJECT_DIR$/livros/livros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-primeiros-passos/oop-primeiros-passos.iml" filepath="$PROJECT_DIR$/oop-primeiros-passos/oop-primeiros-passos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sobrecarga/sobrecarga.iml" filepath="$PROJECT_DIR$/sobrecarga/sobrecarga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3/test3.iml" filepath="$PROJECT_DIR$/test3/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4/test4.iml" filepath="$PROJECT_DIR$/test4/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test5/test5.iml" filepath="$PROJECT_DIR$/test5/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testando-pacotes/testando-pacotes.iml" filepath="$PROJECT_DIR$/testando-pacotes/testando-pacotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste/teste.iml" filepath="$PROJECT_DIR$/teste/teste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ufc-emojis/ufc-emojis.iml" filepath="$PROJECT_DIR$/ufc-emojis/ufc-emojis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visibilidade-atributos-metodos/visibilidade-atributos-metodos.iml" filepath="$PROJECT_DIR$/visibilidade-atributos-metodos/visibilidade-atributos-metodos.iml" />
+    </modules>
+  </component>
+</project>
