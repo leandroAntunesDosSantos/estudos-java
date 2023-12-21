@@ -20,5 +20,7 @@ public class ProdutoMaisBarato {
         } else {
             System.out.println("Produto que custa " + preco3 + " mais barato");
         }
+
+        scanner.close();
     }
 }

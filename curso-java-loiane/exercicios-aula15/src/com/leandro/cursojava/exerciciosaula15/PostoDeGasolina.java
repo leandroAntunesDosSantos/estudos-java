@@ -41,5 +41,7 @@ public class PostoDeGasolina {
 
         System.out.println(formula);
 
+        scanner.close();
+
     }
 }

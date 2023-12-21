@@ -44,5 +44,7 @@ public class HipermercadoTabajara {
         System.out.println(carneEscolhida);
         System.out.println(valorNormal);
         System.out.println(valorComDesconto);
+
+        scanner.close();
     }
 }

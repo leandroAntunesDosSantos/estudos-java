@@ -41,5 +41,7 @@ public class NotasParciaisAlunos {
         System.out.println("Média:" + media);
         System.out.println("Conceito: " + conceito);
         System.out.println(validacao);
+
+        scanner.close();
     }
 }

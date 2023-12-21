@@ -51,5 +51,7 @@ public class InvestigacaoCriminal {
         if (contagem == 5){
             System.out.println("Assassino");
         }
+
+        scanner.close();
     }
 }

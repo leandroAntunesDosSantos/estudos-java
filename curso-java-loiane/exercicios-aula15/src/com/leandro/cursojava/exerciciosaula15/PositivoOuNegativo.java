@@ -16,5 +16,7 @@ public class PositivoOuNegativo {
         } else {
             System.out.println("Valor é zero");
         }
+
+        scanner.close();
     }
 }

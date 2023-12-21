@@ -50,5 +50,7 @@ public class OperacaoComDoisNumeros {
             System.out.println("Numero decimal");
         }
 
+        scanner.close();
+
     }
 }

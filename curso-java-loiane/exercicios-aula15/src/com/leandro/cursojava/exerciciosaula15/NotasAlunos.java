@@ -20,5 +20,7 @@ public class NotasAlunos {
         } else {
             System.out.println("Nota " + media + " Reprovado");
         }
+
+        scanner.close();
     }
 }

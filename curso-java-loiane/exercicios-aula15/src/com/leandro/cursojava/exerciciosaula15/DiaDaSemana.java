@@ -34,7 +34,8 @@ public class DiaDaSemana {
             default:
                 System.out.println("Número inválido");
         }
+
+        scanner.close();
+
     }
-
-
 }

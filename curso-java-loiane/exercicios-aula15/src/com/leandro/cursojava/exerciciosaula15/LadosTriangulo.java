@@ -44,5 +44,7 @@ public class LadosTriangulo {
                 System.out.println("Triangulo Escaleno");
             }
         }
+
+        scanner.close();
     }
 }

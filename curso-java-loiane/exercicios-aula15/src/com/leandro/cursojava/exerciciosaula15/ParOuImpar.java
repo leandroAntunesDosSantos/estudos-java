@@ -14,5 +14,7 @@ public class ParOuImpar {
         }else {
             System.out.println("Numero ímpar");
         }
+
+        scanner.close();
     }
 }

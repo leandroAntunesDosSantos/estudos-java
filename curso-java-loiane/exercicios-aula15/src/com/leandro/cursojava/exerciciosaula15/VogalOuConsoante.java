@@ -14,5 +14,7 @@ public class VogalOuConsoante {
         }else {
             System.out.println("Consoante");
         }
+
+        scanner.close();
     }
 }

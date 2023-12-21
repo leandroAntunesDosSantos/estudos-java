@@ -45,5 +45,7 @@ public class OrdemDecrescenteNumeros {
             System.out.println(num3);
         }
 
+        scanner.close();
+
     }
 }

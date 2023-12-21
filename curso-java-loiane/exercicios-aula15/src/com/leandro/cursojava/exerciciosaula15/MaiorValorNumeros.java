@@ -22,5 +22,7 @@ public class MaiorValorNumeros {
         }else {
             System.out.println("Maior numero é " + num1);
         }
+
+        scanner.close();
     }
 }

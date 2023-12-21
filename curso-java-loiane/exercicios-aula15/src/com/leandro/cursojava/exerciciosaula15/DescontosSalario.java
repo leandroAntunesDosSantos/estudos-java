@@ -46,5 +46,7 @@ public class DescontosSalario {
         System.out.println("FGTS (11%) R$ " + fgts);
         System.out.println("Total de desconto: R$ " + (inss + sindicato + impostoRenda));
         System.out.println("Salário Liquido: R$ " + salarioLiquido);
+
+        scanner.close();
     }
 }

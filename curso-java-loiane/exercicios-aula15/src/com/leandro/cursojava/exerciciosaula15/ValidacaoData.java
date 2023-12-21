@@ -36,5 +36,7 @@ public class ValidacaoData {
             System.out.println("Data invalida");
         }
 
+        scanner.close();
+
     }
 }

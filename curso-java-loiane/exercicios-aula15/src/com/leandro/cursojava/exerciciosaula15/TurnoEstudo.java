@@ -18,5 +18,7 @@ public class TurnoEstudo {
         if (turno.equals("N")){
             System.out.println("Boa Noite!");
         }
+
+        scanner.close();
     }
 }

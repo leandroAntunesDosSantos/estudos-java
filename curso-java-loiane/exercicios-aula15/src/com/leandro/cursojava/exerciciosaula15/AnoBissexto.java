@@ -16,6 +16,7 @@ public class AnoBissexto {
         }else {
             System.out.println("Nao é bissexto");
         }
-
+        
+        scanner.close();
     }
 }

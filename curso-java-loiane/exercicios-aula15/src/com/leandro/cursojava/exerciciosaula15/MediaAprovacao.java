@@ -28,5 +28,7 @@ public class MediaAprovacao {
             System.out.println("Media: " + media);
         }
 
+        scanner.close();
+
     }
 }

@@ -16,6 +16,8 @@ public class ComparaDoisNumeros {
         }else {
             System.out.println("Maior numero é: " + numero2);
         }
+
+        scanner.close();
     }
 
 }

@@ -31,5 +31,7 @@ public class CentenasDezenasUnidades {
             System.out.println("Numero invalido");
         }
 
+        scanner.close();
+
     }
 }

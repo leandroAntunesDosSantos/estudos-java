@@ -42,5 +42,7 @@ public class Frutaria {
         System.out.println("Valor normal: " + valorNormal);
         System.out.println("Valor com desconto " + valorComDesconto);
 
+        scanner.close();
+
     }
 }

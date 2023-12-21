@@ -16,5 +16,7 @@ public class MasculinoOuFeminino {
         }else {
             System.out.println("Sexo Inválido");
         }
+
+        scanner.close();
     }
 }

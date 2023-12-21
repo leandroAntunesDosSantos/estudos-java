@@ -14,5 +14,7 @@ public class InteiroOuDecimal {
         }else {
             System.out.println("Numero decimal");
         }
+        
+        scanner.close();
     }
 }

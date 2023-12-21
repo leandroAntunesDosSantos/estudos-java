@@ -45,5 +45,8 @@ public class CaixaEletronico {
         System.out.println(nota10Reais + " Notas de 10 reais");
         System.out.println(nota5reais + " Notas de 5 reais");
         System.out.println(nota1Real + " Notas de 1 real");
+
+        scanner.close();
     }
+
 }

@@ -45,5 +45,7 @@ public class EquacaoSegundoGrau {
             System.out.println("Raiz 1 " + raiz1);
             System.out.println("Raiz 2 " + raiz2);
         }
+
+        scanner.close();
     }
 }

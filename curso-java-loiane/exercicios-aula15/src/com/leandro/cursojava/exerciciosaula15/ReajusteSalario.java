@@ -35,5 +35,7 @@ public class ReajusteSalario {
         System.out.println("Valor Reajuste: R$ " + valorReajuste);
         System.out.println("Percentual ajuste: " + percentual + "%");
         System.out.println("Salario após reajuste: R$ " + salarioReajustado);
+
+        scanner.close();
     }
 }

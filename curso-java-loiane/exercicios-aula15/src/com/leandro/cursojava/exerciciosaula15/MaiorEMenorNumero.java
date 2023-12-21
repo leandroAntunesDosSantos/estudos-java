@@ -32,5 +32,7 @@ public class MaiorEMenorNumero {
         }else {
             System.out.println("Menor numero é " + num1);
         }
+
+        scanner.close();
     }
 }
