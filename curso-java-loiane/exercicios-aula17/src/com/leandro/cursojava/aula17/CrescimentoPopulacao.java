@@ -1,4 +1,4 @@
-package com.leandro.curdojava.aula17;
+package com.leandro.cursojava.aula17;
 
 public class CrescimentoPopulacao {
 
@@ -14,14 +14,11 @@ public class CrescimentoPopulacao {
             contador++;
 
             popA = popA + (popA * 3)/100;
-            System.out.println(popA);
-            popB = popB + (popB * 1.5)/100;
-            System.out.println(popB);
 
+            popB = popB + (popB * 1.5)/100;
 
             if (popA>=popB){
                 validate = true;
-                System.out.println(popA);
             }
         }while (validate == false);
 

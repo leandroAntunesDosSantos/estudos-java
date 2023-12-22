@@ -1,4 +1,4 @@
-package com.leandro.curdojava.aula17;
+package com.leandro.cursojava.aula17;
 
 import java.util.Scanner;
 
