@@ -9,7 +9,7 @@ public class MediaDasNotas {
         System.out.println("Digite a quantidade de notas que serao avaliadas: ");
         int quantidade = scanner.nextInt();
 
-        int soma = 0;
+        double soma = 0;
 
         int contador = 0;
 

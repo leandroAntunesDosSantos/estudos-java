@@ -23,14 +23,11 @@ public class FatorialCalculadoDiversaVezes {
             for (int i = numero; i > 0 ; i--) {
                 fatorial *= i;
             }
-            System.out.println(fatorial);
 
-        }while (validate == false);
+        }while (validate);
         scanner.close();
 
         System.out.println(fatorial);
-
-
 
     }
 }

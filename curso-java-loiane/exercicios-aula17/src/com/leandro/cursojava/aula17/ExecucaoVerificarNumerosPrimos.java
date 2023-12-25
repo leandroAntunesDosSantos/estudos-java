@@ -11,7 +11,7 @@ public class ExecucaoVerificarNumerosPrimos {
 
         int valorInicial = 2;
 
-        for (int i = 50; i >= valorInicial  ; i--) {
+        for (int i = numero; i >= valorInicial  ; i--) {
             boolean primo = true;
 
             for (int j = i - 1; j >= valorInicial; j--) {

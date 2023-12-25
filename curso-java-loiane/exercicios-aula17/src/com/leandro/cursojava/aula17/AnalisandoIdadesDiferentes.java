@@ -9,7 +9,7 @@ public class AnalisandoIdadesDiferentes {
         System.out.println("Digite quantas pessoas foram perguntadas as idades: ");
         int quantidade = scanner.nextInt();
 
-        int soma = 0;
+        double soma = 0;
 
         for (int i = 0; i < quantidade; i++) {
             System.out.println("Digite sua idade: ");

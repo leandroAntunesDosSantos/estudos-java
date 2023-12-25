@@ -9,7 +9,7 @@ public class MediaAlunosTurma {
         System.out.println("Quantas turmas existem?");
         int turma = scanner.nextInt();
 
-        int soma = 0;
+        double soma = 0;
         boolean validate = true;
         int contador = 0;
 
@@ -24,10 +24,10 @@ public class MediaAlunosTurma {
                 }
                 soma += alunos;
 
-        }while ((contador < turma) && validate == true);
+        }while ((contador < turma) && validate);
 
         double media = soma / turma;
-        if (validate == true){
+        if (validate){
             System.out.println("Média de alunos " + media);
         }
     }
