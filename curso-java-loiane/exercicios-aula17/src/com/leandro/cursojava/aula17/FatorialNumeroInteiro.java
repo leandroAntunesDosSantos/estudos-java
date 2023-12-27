@@ -16,5 +16,7 @@ public class FatorialNumeroInteiro {
 
         }
         System.out.println(fatorial);
+
+        scanner.close();
     }
 }

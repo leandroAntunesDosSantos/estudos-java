@@ -30,5 +30,7 @@ public class MediaAlunosTurma {
         if (validate){
             System.out.println("Média de alunos " + media);
         }
+
+        scanner.close();
     }
 }

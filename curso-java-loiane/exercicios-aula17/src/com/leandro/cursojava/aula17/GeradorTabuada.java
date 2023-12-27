@@ -14,5 +14,7 @@ public class GeradorTabuada {
         for (int i = 1; i <= quantidadeValores ; i++) {
             System.out.println(numero + "x" + i + "=" + (numero * i));
         }
+
+        scanner.close();
     }
 }

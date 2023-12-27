@@ -28,5 +28,7 @@ public class AnalisandoIdadesDiferentes {
         if (media > 60){
             System.out.println("idosa");
         }
+        
+        scanner.close();
     }
 }

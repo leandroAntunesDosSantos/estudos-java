@@ -16,5 +16,7 @@ public class PanificadorSeuJoaquim {
         }
 
         System.out.println(quantidade + "- R$ " + soma);
+
+        scanner.close();
     }
 }

@@ -22,5 +22,7 @@ public class NumeroPrimo {
         }else {
             System.out.println("Não é número primo");
         }
+
+        scanner.close();
     }
 }

@@ -27,5 +27,7 @@ public class ExecucaoVerificarNumerosPrimos {
 
         }
 
+        scanner.close();
+
     }
 }

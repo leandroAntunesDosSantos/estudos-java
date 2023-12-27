@@ -30,5 +30,7 @@ public class Eleicao3Candidatos {
         System.out.println("Votos no candidato A: " + somaCandidatoA);
         System.out.println("Votos no candidato B: " + somaCandidatoB);
         System.out.println("Votos no candidato C: " + somaCandidatoC);
+
+        scanner.close();
     }
 }

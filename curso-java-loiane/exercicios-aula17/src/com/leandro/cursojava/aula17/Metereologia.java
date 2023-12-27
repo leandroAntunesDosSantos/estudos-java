@@ -32,6 +32,7 @@ public class Metereologia {
             System.out.println("Media Temperatura: " + somaTemp / contador);
 
         }
-
+        
+        scanner.close();
     }
 }

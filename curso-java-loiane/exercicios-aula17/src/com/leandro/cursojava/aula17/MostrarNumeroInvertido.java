@@ -2,21 +2,18 @@ package com.leandro.cursojava.aula17;
 
 import java.util.Scanner;
 
-public class FatorialFornecidoUsuario {
+public class MostrarNumeroInvertido {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite um numero pra calcular o Fatorial: ");
+        System.out.println("Digite um numero: ");
         int numero = scanner.nextInt();
 
-        int fatorial = 1;
-
         for (int i = numero; i > 0 ; i--) {
-            fatorial = fatorial * i;
-
+            System.out.printf(i + ",");
         }
-        System.out.println(fatorial);
 
         scanner.close();
+
     }
 }

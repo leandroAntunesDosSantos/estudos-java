@@ -15,5 +15,7 @@ public class LojaManoelJoaquim199 {
             soma += 1.99;
         }
         System.out.println(quantidade + "- R$ " + soma);
+
+        scanner.close();
     }
 }

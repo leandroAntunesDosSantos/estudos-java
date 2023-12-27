@@ -18,6 +18,8 @@ public class ExpoenteNumero {
             resultado *= base;
         }
         System.out.println(resultado);
+
+        scanner.close();
     }
 
 }

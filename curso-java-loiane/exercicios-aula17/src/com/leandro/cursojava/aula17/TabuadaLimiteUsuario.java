@@ -23,5 +23,6 @@ public class TabuadaLimiteUsuario {
         for (int i = min; i <= max ; i++) {
             System.out.println(numero + "x" + i + "=" + (numero * i));
         }
+        scanner.close();
     }
 }

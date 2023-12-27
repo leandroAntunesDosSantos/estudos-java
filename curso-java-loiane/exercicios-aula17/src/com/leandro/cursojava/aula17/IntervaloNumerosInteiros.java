@@ -25,7 +25,8 @@ public class IntervaloNumerosInteiros {
         for (int i = menorNumero; i <= maiorNumero ; i++) {
             System.out.println(i);
         }
-
+        
+        scanner.close();
     }    
     
 }

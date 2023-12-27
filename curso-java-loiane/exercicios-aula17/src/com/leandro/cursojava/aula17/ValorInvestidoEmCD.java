@@ -21,5 +21,7 @@ public class ValorInvestidoEmCD {
         double media = valorTotal / quantidade;
         System.out.println("Valor total gasto em CDs " + valorTotal);
         System.out.println("valor medio gasto por CDs " + media);
+
+        scanner.close();
     }
 }

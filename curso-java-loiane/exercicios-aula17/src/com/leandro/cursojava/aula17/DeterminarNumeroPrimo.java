@@ -21,5 +21,7 @@ public class DeterminarNumeroPrimo {
         if (primo){
             System.out.println("é primo");
         }
+
+        scanner.close();
     }
 }

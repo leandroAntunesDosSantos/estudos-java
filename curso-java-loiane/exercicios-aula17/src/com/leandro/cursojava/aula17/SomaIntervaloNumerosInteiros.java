@@ -28,5 +28,6 @@ public class SomaIntervaloNumerosInteiros {
             System.out.println(i);
         }
         System.out.println(soma);
+        scanner.close();
     }
 }

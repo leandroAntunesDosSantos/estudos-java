@@ -19,5 +19,7 @@ public class SequenciaFibonacci {
             segundo = proximo;
             System.out.println(proximo);
         }
+
+        scanner.close();
     }
 }

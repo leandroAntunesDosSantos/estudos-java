@@ -21,5 +21,7 @@ public class MediaDasNotas {
         }
         double media = soma / quantidade;
         System.out.println(media);
+
+        scanner.close();
     }
 }
