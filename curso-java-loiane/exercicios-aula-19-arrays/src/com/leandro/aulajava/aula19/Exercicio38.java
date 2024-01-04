@@ -1,13 +1,9 @@
 package com.leandro.aulajava.aula19;
 
-import java.text.DecimalFormat;
-
-public class Exercicio4 {
+public class Exercicio38 {
     public static void main(String[] args) {
 
-        double[] vetorA = new double[15];
-        double[] vetorB = new double[15];
-
+        int[] vetorA = new int[15];
         vetorA[0] = 1;
         vetorA[1] = 2;
         vetorA[2] = 3;
@@ -24,19 +20,18 @@ public class Exercicio4 {
         vetorA[13] = 14;
         vetorA[14] = 15;
 
-        System.out.print("Vetor A: ");
-        for (int i = 0; i < vetorA.length; i++) {
-            System.out.print(vetorA[i] + " ");
-            vetorB[i] = Math.sqrt(vetorA[i]);
+        int[] vetorB = new int[15];
 
+        for (int i = 0; i < vetorA.length; i++) {
+            int soma = 0;
+            for (int j = 0; j <= i ; j++) {
+                soma += vetorA[j];
+            }
+            vetorB[i] = soma;
         }
 
-        DecimalFormat df = new DecimalFormat("###,###.###");
-
-        System.out.println();
-        System.out.printf("Vetor B: ");
         for (int i = 0; i < vetorB.length; i++) {
-            System.out.print(df.format(vetorB[i]) + " ");
+            System.out.println("Soma no indice " + i + " - " + vetorB[i]);
         }
 
     }

@@ -1,6 +1,6 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio26 {
+public class Exercicio27 {
     public static void main(String[] args) {
 
         int[] vetorA = new int[10];
@@ -9,40 +9,35 @@ public class Exercicio26 {
         vetorA[2] = 11;
         vetorA[3] = 1;
         vetorA[4] = 1;
-        vetorA[5] = 1;
-        vetorA[6] = 1;
+        vetorA[5] = 7;
+        vetorA[6] = 10;
         vetorA[7] = 1;
-        vetorA[8] = 1;
-        vetorA[9] = 1;
+        vetorA[8] = 6;
+        vetorA[9] = 5;
 
-        int[] vetorB = new int[vetorA.length];
-        vetorB[0] = 1;
-        vetorB[1] = 1;
-        vetorB[2] = 1;
-        vetorB[3] = 1;
-        vetorB[4] = 1;
-        vetorB[5] = 1;
-        vetorB[6] = 11;
-        vetorB[7] = 11;
-        vetorB[8] = 11;
-        vetorB[9] = 11;
+        //int[] vetorB = new int[10];  //aparece o numero do caractere
+        char[] vetorB = new char[10];
 
-        int[] vetorC = new int[vetorA.length];
 
         for (int i = 0; i < vetorA.length; i++) {
-            if (vetorA[i] > vetorB[i]){
-                vetorC[i] = 1;
+            if (vetorA[i] < 7){
+                vetorB[i] = 'a';
             }
-            if (vetorA[i] == vetorB[i]){
-                vetorC[i] = 0;
+            if (vetorA[i] == 7){
+                vetorB[i] = 'b';
             }
-            if (vetorA[i] < vetorB[i]){
-                vetorC[i] = -1;
+            if (vetorA[i] > 7 && vetorB[i] < 10){
+                vetorB[i] = 'c';
+            }
+            if (vetorA[i] == 10){
+                vetorB[i] = 'd';
+            }
+            if (vetorA[i] > 10){
+                vetorB[i] = 'e';
             }
 
-            System.out.println(vetorC[i]);
+            System.out.println(vetorB[i]);
         }
-
 
     }
 }

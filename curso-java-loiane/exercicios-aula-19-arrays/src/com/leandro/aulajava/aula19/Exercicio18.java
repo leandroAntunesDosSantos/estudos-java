@@ -1,6 +1,6 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio17 {
+public class Exercicio18 {
     public static void main(String[] args) {
 
         int[] vetorA = new int[10];
@@ -15,15 +15,18 @@ public class Exercicio17 {
         vetorA[8] = 38;
         vetorA[9] = 39;
 
-        int maioresQue35 = 0;
+        int menorIdade = 1000;
+        int maiorIdade = 0;
 
         for (int i = 0; i < vetorA.length; i++) {
-            if (vetorA[i] > 35){
-                maioresQue35 ++;
-                System.out.println("Maior Que 35: " + vetorA[i]);
+            if (vetorA[i] <= menorIdade){
+              menorIdade = vetorA[i];
+            }
+            if (vetorA[i] >= maiorIdade){
+                maiorIdade = vetorA[i];
             }
         }
-        System.out.println("Quantidade: " + maioresQue35);
-
+        System.out.println("Menor idade: " + menorIdade);
+        System.out.println("maior idade: " + maiorIdade);
     }
 }

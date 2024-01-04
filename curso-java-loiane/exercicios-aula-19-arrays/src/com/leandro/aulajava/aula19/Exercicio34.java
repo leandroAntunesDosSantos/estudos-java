@@ -1,6 +1,6 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio13 {
+public class Exercicio34 {
     public static void main(String[] args) {
 
         int[] vetorA = new int[10];
@@ -15,16 +15,13 @@ public class Exercicio13 {
         vetorA[8] = 9;
         vetorA[9] = 10;
 
-        int soma = 0;
-
-        System.out.print("Os valores: ");
         for (int i = 0; i < vetorA.length; i++) {
-            if (vetorA[i] % 5 == 0){
-                System.out.print(vetorA[i] + " ");
-                soma += vetorA[i];
+            System.out.println("Analisando o numero: " + vetorA[i]);
+            for (int j = 2; j < vetorA[i]; j++) {
+                if (j % 2 == 0){
+                    System.out.println(j + " par");
+                }
             }
         }
-        System.out.println("Soma: "+ soma);
-
     }
 }

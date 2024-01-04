@@ -1,6 +1,6 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio14 {
+public class Exercicio15 {
     public static void main(String[] args) {
 
         int[] vetorA = new int[10];
@@ -15,19 +15,22 @@ public class Exercicio14 {
         vetorA[8] = 9;
         vetorA[9] = 10;
 
-        int soma = 0;
-        double media = 0;
+        double numerosPares = 0;
+        double numerosImpares = 0;
 
-        System.out.print("Os valores: ");
         for (int i = 0; i < vetorA.length; i++) {
-            if (vetorA[i] % 2 != 0){
-                System.out.print(vetorA[i] + " ");
-                soma += vetorA[i];
-
+            if (vetorA[i] % 2 == 0){
+                numerosPares ++;
+            }else{
+                numerosImpares++;
             }
-            media = soma / (vetorA.length / 2);
         }
-        System.out.println("Soma: "+ soma);
-        System.out.println("Media: " + media);
+        int quantidadeDeIndice = vetorA.length;
+
+        System.out.println("Numero pares: " + numerosPares );
+        System.out.println("Numero impares: " + numerosImpares );
+        System.out.println(quantidadeDeIndice);
+        System.out.println("Numeros Pares " + (numerosPares / quantidadeDeIndice) * 100  + "%");
+        System.out.println("Numeros Impares " + (numerosImpares / quantidadeDeIndice) * 100  + "%");
     }
 }

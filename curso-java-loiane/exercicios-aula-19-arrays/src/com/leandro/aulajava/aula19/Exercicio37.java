@@ -1,11 +1,9 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio3 {
+public class Exercicio37 {
     public static void main(String[] args) {
 
         int[] vetorA = new int[15];
-        int[] vetorB = new int[15];
-
         vetorA[0] = 1;
         vetorA[1] = 2;
         vetorA[2] = 3;
@@ -22,17 +20,20 @@ public class Exercicio3 {
         vetorA[13] = 14;
         vetorA[14] = 15;
 
-        System.out.print("Vetor A: ");
-        for (int i = 0; i < vetorA.length; i++) {
-            System.out.print(vetorA[i] + " ");
-            vetorB[i] = vetorA[i] * vetorA[i];
+        int[] vetorB = new int[vetorA.length];
 
+        for (int i = vetorA.length - 1; i >= 0 ; i--) {
+            int fatorial = vetorA[i];
+            System.out.println("Fatorial de " + vetorA[i] + ":");
+            for (int j = i; j > 0 ; j--) {
+                fatorial = fatorial * j;
+            }
+            System.out.println(fatorial);
+            System.out.println("_________");
+            vetorB[i] = fatorial;
         }
-        System.out.println();
-        System.out.printf("Vetor B: ");
         for (int i = 0; i < vetorB.length; i++) {
-            System.out.print(vetorB[i] + " ");
+            System.out.println(vetorB[i]);
         }
-
     }
 }

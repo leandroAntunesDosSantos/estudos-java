@@ -1,6 +1,6 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio7 {
+public class Exercicio8 {
     public static void main(String[] args) {
 
         double[] vetorA = new double[10];
@@ -29,7 +29,7 @@ public class Exercicio7 {
         System.out.print("Vetor B: ");
         for (int i = 0; i < vetorB.length; i++) {
             System.out.print(vetorB[i] + " ");
-            vetorC[i] = vetorA[i] - vetorB[i];
+            vetorC[i] = vetorA[i] * vetorB[i];
         }
 
         System.out.println();

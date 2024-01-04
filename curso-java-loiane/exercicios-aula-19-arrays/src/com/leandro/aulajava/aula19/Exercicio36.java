@@ -1,9 +1,9 @@
 package com.leandro.aulajava.aula19;
 
-public class Exercicio12 {
+public class Exercicio36 {
     public static void main(String[] args) {
 
-        int[] vetorA = new int[10];
+        double[] vetorA = new double[11];
         vetorA[0] = 1;
         vetorA[1] = 2;
         vetorA[2] = 3;
@@ -14,15 +14,11 @@ public class Exercicio12 {
         vetorA[7] = 8;
         vetorA[8] = 9;
         vetorA[9] = 10;
+        vetorA[10] = 11;
 
-        int soma = 0;
-
-        System.out.print("Os valores: ");
-        for (int i = 0; i < vetorA.length; i++) {
-            System.out.print(vetorA[i] + " ");
-            soma += vetorA[i];
+        for (int i = 0; i < vetorA.length ; i++) {
+            vetorA[i] = Math.pow(2,i);
+            System.out.println(vetorA[i]);
         }
-        System.out.println("Soma: "+ soma);
-
     }
 }
